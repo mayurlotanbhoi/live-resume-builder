@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+/* :root{
+  font-family: "Noto Sans", sans-serif;
+} */
+
+
+.Resume-Contaner{
+  width: 100%;
+  padding: 70px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.Resume-Contaner{
+  padding: 80px;
+  height: 100%;
+  
+}
+.forms{
+  width: 40vw;
+}
+.p-names-con  h1{
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.topic-heading .line-border{
+  display: inline-block;
+  width: 150px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.topic-heading h3{    font-weight: 400;
+  font-size: 17px;
+}
+
+.p-names-con  h3 ,.project-link{
+  font-size: 12px;
+  font-weight: 400;
+  color: #222;
+  margin: 0px;
+  
+}
+.project-link a {
+  text-decoration: none;
+
+}
+.p-socialmedia ul {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #222;
+  line-height: 17px;
+}
+
+.p-socialmedia ul li a{
+  text-decoration: none;
+}
+.ducationalDetais table tr > th ,table tr > td {
+  font-size: 13px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #888 !important;
+    padding: 0.1em;
+text-align: center;
+font-weight: 100;
+
+}
+
+
+.expe-company-name h4{
+  font-weight: 700;
+  font-size: 13px;
+ 
+}
+.expe-company-name h5{
+  font-weight: 400;
+  font-size: 13px;
+  
+}
+.expe-company-name h4::after{
+  content: " | ";
+  color: #888;
+  margin-right: 5px;
+}
+.expe-company-name date{
+  font-weight: 400;
+  font-size: 12px;
+}
+.ExperianceDetails ul {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  margin-left:  -13px;
+  margin-top: -5px;
+}
+
+.ProjectDetails{
+  margin-top: -10px;
+}
+
+.ProjectDetails .featur{
+  font-size: 12px;
+  font-family:  "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.feature-list{
+  font-size: 12px;
+  font-family:  "Noto Sans", sans-serif;
+  margin-top: 10px;
+ 
+}
+.tech-contri{
+  line-height: 15px;
+ 
+}
+.tech{
+  margin-top: -10px;
+}
+.tech-contri li{
+  font-size: 12px;
+  font-family:  "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.tech-contri span{
+  font-size: 12px;
+  font-family:  "Noto Sans", sans-serif;
+}
+.skill-list div span{
+  display: inline-block;
+  min-width: 200px;
+  text-align: end;
+}
+.skill-list{
+  line-height: 0px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.skill-list div p{
+  margin-left: 20px;
+  
+}
+.CoCurriculam{
+  font-size: 12px;
+  
+}
+.form-heading a{
+  text-decoration: none;
+  color: gray;
+  margin: 10px;
+} 
+.active{
+  border-bottom: 3px solid red;
+  transition: 0.3s;
+}
+
+label{
+  font-size: 10px;
+}
+
+
+.download{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download i{
+  font-size: 50px;
+  cursor: pointer;
+  color: #0d6efd;
+}
+.fa-download{
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+button{
+  color: white !important;
+  background-color: #0d6e !important;
+}
+marquee{
+  color: #0d6efd;
+}
+
